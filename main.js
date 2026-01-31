@@ -1,4 +1,4 @@
-import './style.css';
+
 const yesButton = document.getElementById('yes');
 const noButton = document.getElementById('no');
 const headline = document.querySelector('h1');
