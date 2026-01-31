@@ -6,13 +6,13 @@ const hamster = document.getElementById('middle');
 
 const resetState = () => {
   headline.textContent = 'Will you be my Valentines?';
-  hamster.src = 'hamster.gif';
+  hamster.src = '/hamster.gif';
   hamster.alt = 'Hamster gif';
 };
 
 yesButton.addEventListener('click', () => {
   headline.textContent = 'YAY! I knew you would say yes!';
-  hamster.src = 'cat-dancing.gif';
+  hamster.src = '/cat-dancing.gif';
   hamster.alt = 'Happy hamster gif';
   hamster.style.width = '300px';
   hamster.style.height = '500px';
@@ -36,7 +36,7 @@ noButton.addEventListener('click', () => {
   yesButton.style.width = `${yesWidth + 10}px`;
   yesButton.style.height = `${yesHeight + 10}px`;
   yesButton.style.fontSize = `${yesfontSize + 5}px`;
-  hamster.src = 'sad-hamster.gif';
+  hamster.src = '/sad-hamster.gif';
   hamster.alt = 'Pondering hamster gif';
   noButton.classList.add('active');
   yesButton.classList.remove('active');
